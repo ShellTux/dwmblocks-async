@@ -1,19 +1,26 @@
-#include "config.h"
-
 #include "block.h"
+#include "config.h"
 #include "util.h"
 
 Block blocks[] = {
-    {"sb-mail",    600,  1 },
-    {"sb-music",   0,    2 },
-    {"sb-disk",    1800, 3 },
-    {"sb-memory",  10,   4 },
-    {"sb-loadavg", 5,    5 },
-    {"sb-mic",     0,    6 },
-    {"sb-record",  0,    7 },
-    {"sb-volume",  0,    8 },
-    {"sb-battery", 5,    9 },
-    {"sb-date",    1,    10},
+    {       "sb-packages",    0,  2},
+    {     "sb-brightness",   60,  3},
+    {        "sb-battery",   60,  4},
+    {         "sb-volume",    0,  5},
+    {       "sb-internet",   15,  6},
+    {           "sb-date",  900,  7},
+    {          "sb-clock",    5,  8},
+    {          "echo ';'",    0,  0},
+    {         "sb-kernel",    0,  9},
+    {            "sb-cpu",    3, 10},
+    {            "sb-mem",   30, 11},
+    {         "sb-disk /", 3600, 12},
+    {     "sb-disk /home", 3600, 13},
+    {  "sb-disk /storage", 3600, 14},
+    {  "sb-disk-activity",    3, 15},
+    {"sb-network-traffic",    1, 16},
+    {        "sb-weather", 3600, 17},
+    {           "sb-news", 1800, 18}
 };
 
 const unsigned short blockCount = LEN(blocks);
