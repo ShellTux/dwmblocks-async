@@ -16,8 +16,7 @@ Block blocks[] = {
     {            "sb-mem",   30, 11},
     {         "sb-disk /", 3600, 12},
     {     "sb-disk /home", 3600, 13},
-    {  "sb-disk /storage", 3600, 14},
-    {  "sb-disk-activity",    3, 15},
+    /* {  "sb-disk-activity",    3, 15}, */
     {"sb-network-traffic",    1, 16},
     {        "sb-weather", 3600, 17},
     {           "sb-news", 1800, 18}
