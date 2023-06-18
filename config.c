@@ -3,22 +3,21 @@
 #include "util.h"
 
 Block blocks[] = {
-    {       "sb-packages",    0,  2},
-    {     "sb-brightness",   60,  3},
-    {        "sb-battery",   60,  4},
-    {         "sb-volume",    0,  5},
-    {       "sb-internet",   15,  6},
-    {           "sb-date",  900,  7},
-    {          "sb-clock",    5,  8},
+    {       "sb-packages",    0,  1},
+    {     "sb-brightness",   60,  2},
+    {        "sb-battery",   60,  3},
+    {         "sb-volume",    0,  4},
+    {       "sb-internet",   15,  5},
+    {           "sb-date",  900,  6},
+    {          "sb-clock",    5,  7},
     {          "echo ';'",    0,  0},
-    {         "sb-kernel",    0,  9},
-    {            "sb-cpu",    3, 10},
-    {            "sb-mem",   30, 11},
-    {         "sb-disk /", 3600, 12},
-    /* {  "sb-disk-activity",    3, 15}, */
-    {"sb-network-traffic",    1, 16},
-    {        "sb-weather", 3600, 17},
-    {           "sb-news", 1800, 18}
+    {         "sb-kernel",    0,  8},
+    {            "sb-cpu",    3,  9},
+    {            "sb-mem",   30, 10},
+    {         "sb-disk /", 3600, 11},
+    {"sb-network-traffic",    1, 12},
+    {        "sb-weather", 3600, 13},
+    {           "sb-news", 1800, 14}
 };
 
 const unsigned short blockCount = LEN(blocks);
